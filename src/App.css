@@ -1,0 +1,47 @@
+/* Timeline item default (desktop) */
+.timeline-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+  position: relative;
+}
+
+/* Timeline dot */
+.timeline-dot {
+  width: 14px;
+  height: 14px;
+  background-color: limegreen;
+  border-radius: 50%;
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* Timeline text */
+.timeline-item .text-start,
+.timeline-item .text-end {
+  width: 45%;
+}
+
+/* Responsive for mobile */
+@media (max-width: 768px) {
+  .timeline-item {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .timeline-item .text-start,
+  .timeline-item .text-end {
+    width: 100%;
+    padding: 0;
+  }
+
+  .timeline-dot {
+    position: relative;
+    left: auto;
+    transform: none;
+    margin-bottom: 10px;
+  }
+}
