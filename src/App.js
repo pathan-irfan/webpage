@@ -236,7 +236,7 @@ function App() {
           className="my-5 p-4 rounded text-center text-glow"
           style={{ backgroundColor: "rgba(0,0,0,0.7)" }}
         >
-          <h2 className="mb-4">Contact Me 7820949997</h2>
+          <h2 className="mb-4">Contact me pathanirfan7820</h2>
           <p>Reach out via WhatsApp or Email</p>
           <div className="d-flex justify-content-center gap-3">
             <a
